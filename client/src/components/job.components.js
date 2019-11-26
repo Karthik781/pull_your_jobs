@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Job extends Component {
-    constructor(props){
-        super(props)
-    }
+    // constructor(props){
+    //     super(props)
+    // }
     render() {
         const {job} = this.props
         return (

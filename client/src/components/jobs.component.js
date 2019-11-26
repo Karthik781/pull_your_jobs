@@ -4,10 +4,10 @@ import Job from './job.components'
 import { Typography } from '@material-ui/core';
 
 export default class Jobs extends Component {
-    constructor(props){
-        super(props)
+    // constructor(props){
+    //     super(props)
 
-    }
+    // }
     render() {
         const {jobs} = this.props
         return (
