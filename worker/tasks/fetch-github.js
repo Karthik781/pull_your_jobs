@@ -43,6 +43,6 @@ let onPage = 0;
     console.log(sucess)
 }
 
-fetchGithubApi();
+// fetchGithubApi();
 
 module.exports =fetchGithubApi;

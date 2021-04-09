@@ -13,7 +13,7 @@ export default class Jobs extends Component {
         return (
             <div className = "jobs">
                 <Typography variant = "h4">
-                <h1>jobs list</h1>
+                jobs list
                 </Typography>
                 {
                     jobs.map(job => <Job job={job}/>)
