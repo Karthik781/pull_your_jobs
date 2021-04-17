@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import Paper from '@material-ui/core/Paper';
 import { Typography } from '@material-ui/core';
 
-export default class Job extends Component {
+export default function Job({job, onClick}) {
     // constructor(props){
     //     super(props)
     // }
-    render() {
-        const {job} = this.props
+
+      
         return (
-            <Paper className='job'>
+            <Paper  onClick={onClick} className='job'>
             <div className="flex-align-mid">
                 <div className="job-title-location">
                     <Typography variant='h6'>{job.title}</Typography>
@@ -22,5 +22,5 @@ export default class Job extends Component {
             </div> */}
         </Paper>
         )
-    }
+    
 }
