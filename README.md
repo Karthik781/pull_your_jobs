@@ -2,7 +2,7 @@
 
 Pull your jobs is an application which provides curated list of developer jobs from Github jobs, stackoverflow jobs etc..
 
-##technologies
+## technologies
 - **Redis**: Data storage and caching
 - **express**: server side framework
 - **React**: Frontend React app

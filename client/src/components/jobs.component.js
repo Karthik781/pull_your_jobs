@@ -19,7 +19,7 @@ export default function Jobs({jobs}) {
             <div className = "jobs">
                  <JobModal open={open} job={selectedJob} handleClose={handleClose} />
                 <Typography variant = "h4">
-                jobs list
+                Junior Developer Jobs
                 </Typography>
                 {
                 jobs.map(
