@@ -1,6 +1,6 @@
 # pull_your_jobs
 
-Pull your jobs is an application which provides curated list of developer jobs from Github jobs, stackoverflow jobs etc..
+Pull your jobs is an React SPA which provides curated list of developer jobs from Github jobs, stackoverflow jobs etc.. It simplifies job searching for junior developers with its filtering mechanism.
 
 ## technologies
 - **Redis**: Data storage and caching
